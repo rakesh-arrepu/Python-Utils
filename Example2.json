@@ -1,0 +1,9 @@
+{
+  "name": "Alice",
+  "scores": [10, 25, 30],
+  "contacts": [
+    {"type": "email", "value": "alice@example.org"},
+    {"type": "phone", "value": "12345"},
+    {"type": "linkedin", "value": "alice-link"}
+  ]
+}
