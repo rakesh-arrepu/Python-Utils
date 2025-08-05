@@ -1,1 +1,152 @@
-
+{
+  "Vitals" : {
+    "MessageHeaderKey" : "3499946877675050347",
+    "LastUpdateDTS" : "2025-07-22 11:22:01",
+    "DocumentProviderCheck" : "i2i_CareSource_PrimaryOne_20250507_181138.txt",
+    "Duplicate" : "N",
+    "ConfidenceLevel" : "0",
+    "VitalsKey" : "37480E60-7EB1-2922-122A-62D014698645",
+    "ClinicalDocument" : [
+      {
+        "ClinicalDocumentKey" : "8012103429172299299",
+        "Organization" : {
+          "Facility" : {
+            "Code" : "311533908",
+            "Display" : "PrimaryOne",
+            "ParentKey" : "5472403131704574343",
+            "System" : "Tax ID"
+          },
+          "Institution" : {
+            "Display" : "Hill, Sysilie",
+            "ParentKey" : "5472403131704574343",
+            "System" : "NPI"
+          },
+          "OrganizationKey" : "5472403131704574343",
+          "ParentKey" : "8012103429172299299"
+        },
+        "ParentKey" : "37480E60-7EB1-2922-122A-62D014698645",
+        "PatientIdentification" : <!--{-->
+          "Address" : [
+            {
+              "AddressLine" : "1537 Stimmel Rd Apt D2",
+              "City" : "Columbus",
+              "ParentKey" : "7429615951151537221",
+              "State" : "OH",
+              "ZipCode" : "43223"
+            }
+          ],
+          "BirthDate" : "1992-02-12 00:00:00",
+          "Gender" : "F",
+          "Identifiers" : [
+            {
+              "AssigningAuthority" : "CareSource",
+              "IdNumber" : "10214691900",
+              "ParentKey" : "7429615951151537221",
+              "Type" : "MRN"
+            },
+            {
+              "AssigningAuthority" : "I2I",
+              "IdNumber" : "105985104699",
+              "ParentKey" : "7429615951151537221",
+              "Type" : "Medicare ID"
+            },
+            {
+              "IdNumber" : "26200305",
+              "ParentKey" : "7429615951151537221",
+              "Type" : "Encounter ID"
+            }
+          ],
+          "MemberStatus" : "Y",
+          "Name" : [
+            {
+              "Family" : "Woodard",
+              "given" : [
+                {
+                  "valueString" : "Cassandra",
+                  "ParentKey" : "7429615951151537221"
+                }
+              ],
+              "ParentKey" : "7429615951151537221",
+              "NameKey" : "5170754392064338596"
+            }
+          ],
+          "ParentKey" : "8012103429172299299",
+          "PatientIdentificationKey" : "7429615951151537221",
+          "Telecommunication" : [
+            {
+              "ParentKey" : "7429615951151537221",
+              "System" : "Phone",
+              "usage" : "Primary",
+              "ValueSt" : "6146571635"
+            }
+          ]
+        },
+        "Practitioner" : [
+          {
+            "ParentKey" : "8012103429172299299",
+            "TaxIdentificationNumber" : "311533908"
+          }
+        ],
+        "Result" : [
+          {
+            "Code" : {
+              "Code" : "3078F",
+              "Display" : "Diastolic blood pressure",
+              "ParentKey" : "1406573096624927470",
+              "System" : "CPT"
+            },
+            "Description" : "Diastolic blood pressure",
+            "ParentKey" : "8012103429172299299",
+            "ResultKey" : "1406573096624927470",
+            "StartDateTime" : "2024-09-13 00:00:00",
+            "ValueSt" : "66"
+          },
+          {
+            "Code" : {
+              "Code" : "Z68.20",
+              "Display" : "BMI",
+              "ParentKey" : "7253635637160918528",
+              "System" : "ICD-10"
+            },
+            "Description" : "BMI",
+            "ParentKey" : "8012103429172299299",
+            "ResultKey" : "7253635637160918528",
+            "StartDateTime" : "2024-09-13 00:00:00",
+            "ValueSt" : "20.55"
+          },
+          {
+            "Description" : "Body Height",
+            "ParentKey" : "8012103429172299299",
+            "ResultKey" : "3434122971543136972",
+            "StartDateTime" : "2024-09-13 00:00:00",
+            "Unit" : "Inches",
+            "ValueSt" : "63.00"
+          },
+          {
+            "Description" : "Body Weight",
+            "ParentKey" : "8012103429172299299",
+            "ResultKey" : "679721662964051247",
+            "StartDateTime" : "2024-09-13 00:00:00",
+            "Unit" : "Pounds",
+            "ValueSt" : "116.00"
+          },
+          {
+            "Code" : {
+              "Code" : "3074F",
+              "Display" : "Systolic blood pressure",
+              "ParentKey" : "5702777076647605676",
+              "System" : "CPT"
+            },
+            "Description" : "Systolic blood pressure",
+            "ParentKey" : "8012103429172299299",
+            "ResultKey" : "5702777076647605676",
+            "StartDateTime" : "2024-09-13 00:00:00",
+            "ValueSt" : "100"
+          }
+        ],
+        "Source" : "I2I",
+        "Version" : "2"
+      }
+    ]
+  }
+}
